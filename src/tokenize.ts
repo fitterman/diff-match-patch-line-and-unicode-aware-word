@@ -1,5 +1,5 @@
 
-const WORD_BOUNDARY_PATTERN = /\W/;
+var WORD_BOUNDARY_PATTERN = /[^-'’\p{Letter}\p{Number}]/u; /* includes both kinds of apostrophes */
 
 function indexOfWordBoundary(target: string, startIndex: number): number {
   const n = target.length;
