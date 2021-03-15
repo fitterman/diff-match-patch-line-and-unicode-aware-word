@@ -1,7 +1,7 @@
 {
-  "name": "diff-match-patch-line-and-word",
+  "name": "diff-match-patch-line-and-unicode-aware-word",
   "version": "0.1.2",
-  "description": "An extension module that adds line-mode and word-mode on diff-match-patch.",
+  "description": "An extension module that adds line-mode and Unicode-aware word-mode on diff-match-patch.",
   "main": "dist/index.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karak/diff-match-patch-line-and-word.git"
+    "url": "git+https://github.com/fitterman/diff-match-patch-line-and-unicode-aware-word.git"
   },
   "keywords": [
     "diff",
@@ -23,23 +23,23 @@
   "author": "Karak",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/karak/diff-match-patch-line-and-word/issues"
+    "url": "https://github.com/fitterman/diff-match-patch-line-and-unicode-aware-word.git"
   },
-  "homepage": "https://github.com/karak/diff-match-patch-line-and-word#readme",
+  "homepage": "https://github.com/fitterman/diff-match-patch-line-and-unicode-aware-word#readme",
   "devDependencies": {
     "@types/diff-match-patch": "^1.0.32",
     "@types/mocha": "^2.2.43",
     "@types/power-assert": "^1.4.29",
     "diff-match-patch": "^1.0.0",
     "espower-typescript": "^8.1.1",
-    "mocha": "^4.0.1",
+    "mocha": "^8.3.2",
     "power-assert": "^1.4.4",
+    "ts-node": "^9.1.1",
     "tslint": "^5.7.0",
     "tslint-config-airbnb-base": "^0.1.0",
-    "typescript": "^2.5.3"
+    "typescript": "^2.9.2"
   },
   "peerDependencies": {
     "diff-match-patch": "^1.0.0"
-  },
-  "dependencies": {}
+  }
 }
