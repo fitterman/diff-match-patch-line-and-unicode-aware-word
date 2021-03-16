@@ -1,6 +1,6 @@
 {
   "name": "diff-match-patch-line-and-unicode-aware-word",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "An extension module that adds line-mode and Unicode-aware word-mode on diff-match-patch.",
   "main": "dist/index.js",
   "directories": {
